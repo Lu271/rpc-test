@@ -1,4 +1,4 @@
-module rpc-test
+module github.com/Lu271/rpc-test
 
 go 1.20
 
@@ -7,6 +7,7 @@ replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 require (
 	github.com/cloudwego/gopkg v0.1.2
 	github.com/cloudwego/kitex v0.11.3
+	github.com/kitex-contrib/registry-etcd v0.2.5
 )
 
 require (
@@ -34,7 +35,6 @@ require (
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/jhump/protoreflect v1.8.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kitex-contrib/registry-etcd v0.2.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/gls v0.0.0-20220109145502-612d0167dce5 // indirect
