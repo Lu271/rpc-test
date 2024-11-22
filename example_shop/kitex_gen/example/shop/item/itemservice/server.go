@@ -2,8 +2,8 @@
 package itemservice
 
 import (
+	item "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/item"
 	server "github.com/cloudwego/kitex/server"
-	item "rpc-test/example_shop/kitex_gen/example/shop/item"
 )
 
 // NewServer creates a server.Server with the given handler and options.

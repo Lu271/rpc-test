@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	hello "rpc-test/hello-server/kitex_gen/hello"
+	hello "github.com/Lu271/rpc-test/hello-server/kitex_gen/hello"
 )
 
 // HelloServiceImpl implements the last service interface defined in the IDL.

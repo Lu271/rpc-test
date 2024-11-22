@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	hello "github.com/Lu271/rpc-test/hello-server/kitex_gen/hello/helloservice"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"
 	etcd "github.com/kitex-contrib/registry-etcd"
 	"net"
-	hello "rpc-test/hello-server/kitex_gen/hello/helloservice"
 )
 
 func main() {

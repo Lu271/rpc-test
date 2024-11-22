@@ -2,8 +2,8 @@
 package helloservice
 
 import (
+	hello "github.com/Lu271/rpc-test/hello-server/kitex_gen/hello"
 	server "github.com/cloudwego/kitex/server"
-	hello "rpc-test/hello-server/kitex_gen/hello"
 )
 
 // NewServer creates a server.Server with the given handler and options.

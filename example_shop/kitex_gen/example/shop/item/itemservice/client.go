@@ -4,9 +4,9 @@ package itemservice
 
 import (
 	"context"
+	item "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/item"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
-	item "rpc-test/example_shop/kitex_gen/example/shop/item"
 )
 
 // Client is designed to provide IDL-compatible methods with call-option parameter for kitex framework.

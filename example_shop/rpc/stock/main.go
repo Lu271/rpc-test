@@ -1,8 +1,8 @@
 package main
 
 import (
+	stack "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/stack/stockservice"
 	"log"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack/stockservice"
 )
 
 func main() {

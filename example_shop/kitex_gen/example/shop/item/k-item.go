@@ -10,7 +10,7 @@ import (
 
 	"github.com/cloudwego/gopkg/protocol/thrift"
 
-	"rpc-test/example_shop/kitex_gen/example/shop/base"
+	"github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/base"
 )
 
 var (

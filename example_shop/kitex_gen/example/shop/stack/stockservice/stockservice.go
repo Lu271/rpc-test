@@ -5,9 +5,9 @@ package stockservice
 import (
 	"context"
 	"errors"
+	stack "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/stack"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack"
 )
 
 var errInvalidMessageType = errors.New("invalid message type for service method handler")

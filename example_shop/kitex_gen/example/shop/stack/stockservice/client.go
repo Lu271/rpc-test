@@ -4,9 +4,9 @@ package stockservice
 
 import (
 	"context"
+	stack "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/stack"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack"
 )
 
 // Client is designed to provide IDL-compatible methods with call-option parameter for kitex framework.

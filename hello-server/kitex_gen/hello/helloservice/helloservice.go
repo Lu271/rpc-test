@@ -5,9 +5,9 @@ package helloservice
 import (
 	"context"
 	"errors"
+	hello "github.com/Lu271/rpc-test/hello-server/kitex_gen/hello"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
-	hello "rpc-test/hello-server/kitex_gen/hello"
 )
 
 var errInvalidMessageType = errors.New("invalid message type for service method handler")

@@ -2,8 +2,8 @@
 package stockservice
 
 import (
+	stack "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/stack"
 	server "github.com/cloudwego/kitex/server"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack"
 )
 
 // NewServer creates a server.Server with the given handler and options.

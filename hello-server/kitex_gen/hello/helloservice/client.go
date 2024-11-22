@@ -4,9 +4,9 @@ package helloservice
 
 import (
 	"context"
+	hello "github.com/Lu271/rpc-test/hello-server/kitex_gen/hello"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
-	hello "rpc-test/hello-server/kitex_gen/hello"
 )
 
 // Client is designed to provide IDL-compatible methods with call-option parameter for kitex framework.

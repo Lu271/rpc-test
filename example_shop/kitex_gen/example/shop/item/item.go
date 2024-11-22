@@ -5,8 +5,8 @@ package item
 import (
 	"context"
 	"fmt"
+	"github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/base"
 	thrift "github.com/cloudwego/kitex/pkg/protocol/bthrift/apache"
-	"rpc-test/example_shop/kitex_gen/example/shop/base"
 	"strings"
 )
 

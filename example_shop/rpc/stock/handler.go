@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack"
+	stack "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/stack"
 )
 
 // StockServiceImpl implements the last service interface defined in the IDL.

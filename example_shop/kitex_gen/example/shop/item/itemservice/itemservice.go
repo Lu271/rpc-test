@@ -5,9 +5,9 @@ package itemservice
 import (
 	"context"
 	"errors"
+	item "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/item"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
-	item "rpc-test/example_shop/kitex_gen/example/shop/item"
 )
 
 var errInvalidMessageType = errors.New("invalid message type for service method handler")

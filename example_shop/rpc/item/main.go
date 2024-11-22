@@ -1,12 +1,12 @@
 package main
 
 import (
+	item "github.com/Lu271/rpc-test/example_shop/kitex_gen/example/shop/item/itemservice"
 	"log"
-	stack "rpc-test/example_shop/kitex_gen/example/shop/stack/stockservice"
 )
 
 func main() {
-	svr := stack.NewServer(new(StockServiceImpl))
+	svr := item.NewServer(new(ItemServiceImpl))
 
 	err := svr.Run()
 
